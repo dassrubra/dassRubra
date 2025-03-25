@@ -1,0 +1,14 @@
+@import url(css/general.css);
+@import url(css/bloco.css);
+
+@font-face {
+    font-family: 'orbitron';
+    src: url(../../font/Orbitron-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
