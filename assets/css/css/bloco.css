@@ -16,6 +16,14 @@
     flex-flow: column;
     justify-content: space-around;
     align-items: center;
+
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.menu.open {
+    transform: scale(101%) translateX(-20px);
+    opacity: 1;
 }
 
 .botao {
