@@ -9,4 +9,4 @@ let mes = (agora.getMonth() + 1).toString().padStart(2, '0')
 document.getElementById('data').innerText = `Data - ${dia}/${mes}`
 
 let ano = agora.getFullYear()
-document.getElementById('ano').innerText = `Ano - ${ano}`;
+document.getElementById('ano').innerText = `Ano - ${ano}`
