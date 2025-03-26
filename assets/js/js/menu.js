@@ -1,9 +1,11 @@
 export function menu() {
+    let men = document.querySelector('#botao-menu')
     let menu = document.querySelector('.menu')
     let bloco1 = document.querySelector('#ciri1')
     let bloco2 = document.querySelector('#ciri2')
     let guts = document.querySelector('.guts')
 
+    men.innerHTML = '+ MENU'
     menu.style.display = 'flex'
     bloco1.style.display = 'none'
     bloco2.style.display = 'none'
@@ -26,10 +28,12 @@ export function fechar(event) {
         }, 0);
         document.removeEventListener('click', fechar)
 
+        let men = document.querySelector('#botao-menu')
         let bloco1 = document.querySelector('#ciri1')
         let bloco2 = document.querySelector('#ciri2')
         let guts = document.querySelector('.guts')
 
+        men.innerHTML = '- MENU'
         bloco1.style.display = 'flex'
         bloco2.style.display = 'flex'
         guts.style.opacity = '1'
