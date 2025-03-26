@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="good.css">
+    <link rel="stylesheet" href="css/1-soft.css">
+    <title>softwares - Note</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(../img/red-1-blur.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            overflow: hidden;
+            position: relative;
+
+            color: white;
+
+            width: 100vw;
+            height: 100vh;
+
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        @keyframes ga {
+            0% {
+                transform: translateY(-20px);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes ge {
+            0% {
+                transform: translateY(20px);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        header {
+            /* background-color: lightcoral; */
+            font-size: 32px;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: auto;
+
+            width: 90vw;
+            height: 8vh;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header p {
+            animation: ga 1s ease-in-out 1 forwards;
+        }
+
+        header p:nth-child(2):hover {
+            text-decoration: underline;
+        }
+
+        main {
+            position: relative;
+            border-radius: 30px;
+            width: 90vw;
+            height: 84vh;
+            margin: auto;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(../img/red-2-flip.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            opacity: 0.5;
+            border-radius: 30px;
+            z-index: -1;
+        }
+
+        footer {
+            /* background-color: lightgray; */
+            font-size: 11px;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: auto;
+
+            width: 90vw;
+            height: 8vh;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+
+        footer p:nth-child(1) {
+            width: 300px;
+        }
+
+        footer p {
+            animation: ge 1s ease-in-out 1 forwards;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><a href="https://github.com/dassrubra" target="_blank">DASSRUBRA</a> | Workspace</p>
+        <p><a href="../../index.html">RETORNAR</a></p>
+    </header>
+    <main>
+        <div>
+            <img id="girl" src="../img/anime-girl/magic.gif" alt="magic">
+        </div>
+        <div class="tela">
+            <h1>SOFTWARES | Links dos softwares & jogos</h1>
+            <div class="conteudo">
+                <div class="coluna">
+                    <div class="separ1">
+                        <img src="../img/icon-softwares/vscode-icon.png" alt="vs_code">
+                        <img src="../img/icon-softwares/winrar.png" alt="winrar">
+                        <img src="../img/icon-softwares/git.png" alt="git">
+                        <img src="../img/icon-softwares/github-desktop-icon.png" alt="github">
+                        <img src="../img/icon-softwares/xampp-icon.png" alt="xampp">
+                        <img src="../img/icon-softwares/node.js-icon.png" alt="node">
+                    </div>
+                    <div class="separ2">
+                        <p><a href="https://code.visualstudio.com" target="_blank">VS Code Studio</a></p>
+                        <p><a href="https://www.win-rar.com/start.html?&L=9" target="_blank">WinRAR</a></p>
+                        <p><a href="https://git-scm.com/downloads" target="_blank">Git</a></p>
+                        <p><a href="https://desktop.github.com/download/" target="_blank">GitHub Desktop</a></p>
+                        <p><a href="https://www.apachefriends.org/pt_br/index.html" target="_blank">XAMPP</a></p>
+                        <p><a href="https://nodejs.org/pt" target="_blank">Node.JS</a></p>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div class="separ1">
+                        <img src="../img/icon-softwares/handbrake-icon.png" alt="handbrake">
+                        <img src="../img/icon-softwares/4kdownloader-icon.png" alt="4k_downloader">
+                        <img src="../img/icon-softwares/figma-icon.png" alt="figma">
+                        <img src="../img/icon-softwares/gimp-icon.png" alt="gimp">
+                        <img src="../img/icon-softwares/translucenttb-icon.png" alt="translucenttb">
+                        <div></div>
+                    </div>
+                    <div class="separ2">
+                        <p><a href="https://handbrake.fr" target="_blank">HandBrake</a></p>
+                        <p><a href="https://www.4kdownload.com/pt-br/products/videodownloader-8" target="_blank">4k Downloader</a></p>
+                        <p><a href="https://www.figma.com/pt-br/downloads/" target="_blank">Figma</a></p>
+                        <p><a href="https://www.gimp.org" target="_blank">GIMP</a></p>
+                        <p><a href="https://translucenttb.com" target="_blank">Translucenttb</a></p>
+                        <p><a href="#"></a></p>
+                    </div>
+                </div>
+                <div class="coluna">
+                    <div class="separ1">
+                        <img src="../img/icon-softwares/roblox-icon.png" alt="roblox">
+                        <img src="../img/icon-softwares/minecraft-icon.png" alt="minecraft">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="separ2">
+                        <p><a href="https://www.roblox.com/pt/download" target="_blank">Roblox</a></p>
+                        <p><a href="https://www.minecraft.net/pt-br/download" target="_blank">Minecraft</a></p>
+                        <p><a href="#"></a></p>
+                        <p><a href="#"></a></p>
+                        <p><a href="#"></a></p>
+                        <p><a href="#"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            *PROJETO FEITO PARA USO PESSOAL MEU,
+            POIS RESETO MEU NOTEBOOK PARA MODO FABRICA,
+            PELO MENOS 1 VEZ POR MÊS, OBRIGADO!* 
+        </p>
+        <p>CRIADO POR TIAGO BORSATTI</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="good.css">
+    <link rel="stylesheet" href="css/3-gui.css">
+    <title>guias favoritas - Note</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(../img/red-1-blur.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+            overflow: hidden;
+            position: relative;
+
+            color: white;
+
+            width: 100vw;
+            height: 100vh;
+
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        @keyframes ga {
+            0% {
+                transform: translateY(-20px);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes ge {
+            0% {
+                transform: translateY(20px);
+                opacity: 0.5;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        header {
+            /* background-color: lightcoral; */
+            font-size: 32px;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: auto;
+
+            width: 90vw;
+            height: 8vh;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header p {
+            animation: ga 1s ease-in-out 1 forwards;
+        }
+
+        header p:nth-child(2):hover {
+            text-decoration: underline;
+        }
+
+        main {
+            position: relative;
+            border-radius: 30px;
+            width: 90vw;
+            height: 84vh;
+            margin: auto;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(../img/red-2-flip.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            opacity: 0.5;
+            border-radius: 30px;
+            z-index: -1;
+        }
+
+        footer {
+            /* background-color: lightgray; */
+            font-size: 11px;
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin: auto;
+
+            width: 90vw;
+            height: 8vh;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+        }
+
+        footer p:nth-child(1) {
+            width: 300px;
+        }
+
+        footer p {
+            animation: ge 1s ease-in-out 1 forwards;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><a href="https://github.com/dassrubra" target="_blank">DASSRUBRA</a> | Workspace</p>
+        <p><a href="../../index.html">RETORNAR</a></p>
+    </header>
+    <main>
+        <div class="tela">
+            <h1>GUIAS FAVORITAS | Links de webs salvas importantes</h1>
+            <div class="conteudo">
+                <div class="guia">
+                    <div class="guia1">
+                        <ul>
+                            <li><a href="https://translate.google.com.br/?sl=en&tl=pt&op=translate">Google Tradutor</a></li>
+                            <li><a href="https://pairdrop.net" target="_blank">PairDrop</a></li>
+                            <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail</a></li>
+                            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                            <li><a href="https://github.com/dassrubra" target="_blank">GitHub</a></li>
+                            <li><a href="https://www.ubisoft.com/pt-br/game/rainbow-six/siege/marketplace?route=buy" target="_blank">R6 Marketplace</a></li>
+                            <li><a href="https://cursor.unina.edu.br/Ambiente.aspx" target="_blank">Unina</a></li>
+                            <li><a href="https://copilot.microsoft.com/chats/XsGZexapXUk92ovgFtn97" target="_blank">Copilot</a></li>
+                            <li><a href="https://grok.com/chat/8eb9386d-3b79-457a-89ea-7cf6980802bb" target="_blank">Grok</a></li>
+                            <li><a href="https://www.microsoft365.com/?auth=1" target="_blank">Microsoft 365</a></li>
+                        </ul>
+                    </div>
+                    <div class="guia2">
+                        <ul>Pasta:
+                            <li><a href="https://favicon.io" target="_blank">Favicon</a></li>
+                            <li><a href="https://color.adobe.com/pt/create/color-wheel" target="_blank">Adobe Color</a></li>
+                            <li><a href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF" target="_blank">Paletoon</a></li>
+                            <li><a href="https://fonts.google.com" target="_blank">Google Fonts</a></li>
+                            <li><a href="https://www.dafont.com/pt/" target="_blank">DaFont</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="girl">
+                    <img src="../img/anime-girl/blue.gif" alt="girl">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            *PROJETO FEITO PARA USO PESSOAL MEU,
+            POIS RESETO MEU NOTEBOOK PARA MODO FABRICA,
+            PELO MENOS 1 VEZ POR MÊS, OBRIGADO!* 
+        </p>
+        <p>CRIADO POR TIAGO BORSATTI</p>
+    </footer>
+</body>
+</html>

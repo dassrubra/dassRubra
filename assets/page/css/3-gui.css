@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'orbitron';
+    src: url(../../font/Orbitron-VariableFont_wght.ttf);
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.guia {
+    background-color: #ff000085;
+    border-radius: 20px;
+
+    width: 60vw;
+    height: 50vh;
+
+    padding: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    font-size: 1.1em;
+}
+
+.guia1 {
+    /* background-color: red; */
+    
+    width: 50%;
+    height: 100%;
+}
+
+.guia2 {
+    /* background-color: aqua; */
+
+    width: 50%;
+    height: 100%;
+}
+
+.girl {
+    /* background-color: aqua; */
+
+    width: 40vw;
+    height: 50vh;
+
+    margin-top: 50px;
+    margin-right: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 330px;
+    height: 330px;
+}
