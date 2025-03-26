@@ -39,8 +39,10 @@
 }
 
 .botao:hover {
-    background-color: #ee0000;
-    transition: 0.3s;
+    background-color: #fff;
+    color: #ee0000;
+    transition: 0.1s;
+    transform: translateX(-15px);
 }
 
 main {
@@ -222,8 +224,10 @@ input {
 }
 
 input:hover {
-    background-color: #da0101;
+    background-color: #fff;
+    color: #da0101;
     transition: 0.3s;
+    transform: scale(105%);
 }
 
 input:active {
