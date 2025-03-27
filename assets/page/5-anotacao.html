@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="good.css">
     <link rel="stylesheet" href="css/5-ano.css">
+    <script src="anota.js" defer></script>
     <title>anotações - Note</title>
     <style>
         * {
@@ -149,20 +150,84 @@
         <p><a href="../../index.html">RETORNAR</a></p>
     </header>
     <main>
-        <img id="g1" src="../img/anime-girl/yellow.gif" alt="girl1">
-        <img id="g2" src="../img/anime-girl/rose.gif" alt="girl2">
+        <img class="cute" id="g1" src="../img/anime-girl/yellow.gif" alt="girl1">
+        <img class="cute" id="g2" src="../img/anime-girl/rose.gif" alt="girl2">
         <div class="tela">
             <h1>ANOTAÇÕES | Feitos para utilitários</h1>
             <div class="conteudo">
                 <div class="coluna1">
-                    <button>Extenções VS Code</button>
-                    <button>PC Mais Leve</button>
-                    <button>PC Mais Rápido</button>
-                    <button>Desativar Processos</button>
+                    <button data-anota="t1">Extenções VS Code</button>
+                    <button data-anota="t2">PC Mais Leve</button>
+                    <button data-anota="t3">PC Mais Rápido</button>
+                    <button data-anota="t4">Desativar Processos</button>
                 </div>
                 <div class="coluna2">
-                    <div class="anota">
-
+                    <div id="t1" class="anota">
+                        <img id="magic" class="uwu" src="../img/anime-girl/magic.gif" alt="girl_magic">
+                        <ul>
+                            <li>// Códigos de extenções do VS Code:</li>
+                        </ul>
+                        <br><br>
+                        <ul>
+                            <li>// MS-CEINTL.vscode-language-pack-pt-BR - português</li>
+                            <li>// dzhavat.bracket-pair-toggler - Cor</li>
+                            <li>// dbaeumer.vscode-eslint - Suporte JavaScript</li>
+                            <li>// rifi2k.format-html-in-php - Suporte HTML</li>
+                            <li>// PKief.material-icon-theme - Tema dos icons</li>
+                            <li>// hakcorp.php-awesome-snippets - Snippets de PHP</li>
+                            <li>// bmewburn.vscode-intelephense-client - Suporte PHP</li>
+                            <li>// MS-CEINTL.vscode-language-pack-pt-BR - Linguagem PT BR</li>
+                            <li>// aaron-bond.better-comments - Better Comments</li>
+                            <li>// usernamehw.errorlens - Error Lens</li>
+                            <li>// GitHub.copilot - GitHub Copilot</li>
+                            <li>// GitHub.copilot-chat - GitHub Copilot Chat</li>
+                            <li>// xabikos.JavaScriptSnippets - JavaScript Snippets</li>
+                            <li>// adpyke.codesnap - CodeSnap</li>
+                            <li>// dracula-theme.theme-dracula - Dracula Theme</li>
+                            <li>// ms-vscode.live-server - Live Preview</li>
+                            <li>// miramac.vscode-exec-node - Node.js Exec</li>
+                            <li>// Endormi.2077-theme - Cyperpunk 2077 Theme</li>
+                            <li>// unthrottled.doki-theme - Doki Theme</li>
+                        </ul>
+                    </div>
+                    <div id="t2" class="anota">
+                        <img id="pink" class="uwu" src="../img/anime-girl/pink.gif" alt="girl_pink">
+                        <ol>
+                            <li>cmd > taskschd.msc > Biblioteca > Microsoft > Windows > Maintenence > ‘desativar’;</li>
+                            <li>Ajustar a aparência e o desempenho do windows;</li>
+                            <li>Aplicativos de segundo plano ‘desativar’;</li> 
+                        </ol>
+                    </div>
+                    <div id="t3" class="anota">
+                        <img id="blue" class="uwu" src="../img/anime-girl/blue.gif" alt="girl_blue">
+                        <ol>
+                            <li>REGEDIT > HKEY_CURRENT_USER > System > GameConfigStore > (GameDVR_Enabled) > ‘0’;</li>
+                            <li>... > HKEY_LOCAL_MACHINE > SOFTWARE > Microsoft > PolicyManager > default > ApplicationManagement > AllowGameDVR > (value) > ‘0’;</li>
+                            <li>... > ... > ... > Microsoft > Windows Runtime > ActivatableClassid > Windows.Gaming.GameBar.PresenceServer.Internal.PresenceWriter > (Activation Type) > ‘0’;</li>
+                            <li>!! Pegar a permissão: Windows.Gaming.GameBarr... > Permissões > Adicionar > Verificar > Ok > ‘permitir’ || Avançados > Alterar > Verificar > Ok || Aplicar > Ok > Aplicar > Ok [(Activation Type) > ‘0’;</li>
+                            <li>Gerenciador de Dispositivos > Dispositivos de sistema > (Timer de eventos de alta precisão) > ‘Desabilitar Dispositivo’;</li>
+                        </ol>
+                    </div>
+                    <div id="t4" class="anota">
+                        <img id="golden" class="uwu" src="../img/anime-girl/goldenyellow.gif" alt="girl_golden">
+                        <ul>
+                            <li>//! Gerenciador de Tarefas > Serviços > (qualquer serviço + click direito) > Abrir Serviços;</li>
+                            <li>//! (começe de baixo para cima nos serviços)</li>
+                        </ul>
+                        <br><br>
+                        <ol>
+                            <li>Windows Search;</li>
+                            <li>Telefonia;</li>
+                            <li>Spooler de Impressão;</li>
+                            <li>Serviços de Área de Trabalho Remoto;</li>
+                            <li>Serviço de Telefonia;</li>
+                            <li>Serviço de Relatórios de Erro do Windows;</li>
+                            <li>Serviço de Criptografia de Unidade de Disco Bitlocker;</li>
+                            <li>Serviço de Biometria do Windows;</li>
+                            <li>Registro Remoto;</li>
+                            <li>Cartão Inteligente;</li>
+                            <li>(executar arquivo processos, depois reiniciar)</li>
+                        </ol>
                     </div>
                 </div>
             </div>
