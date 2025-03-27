@@ -36,25 +36,22 @@
 }
 
 button {
-    background-color: #ff000085;
+    background-color: #ff00002a;
     color: white;
-    box-shadow: 0px 2px 2px #000;
-    border-radius: 20px;
+    box-shadow: 0px 4px 4px #000;
+    border-radius: 50px;
+    border: none;
+    text-shadow: 1px 1px 1px #000;
 
     width: 250px;
     height: 80px;
 
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'orbitron';
 }
 
-button:hover {
-    background-color: #ff0000c7;
-    transition: 0.3s;
-}
-
 button:active {
-    box-shadow: inset 0px 2px 2px #000;
+    box-shadow: inset 0px 4px 4px #000;
 }
 
 .anota {
